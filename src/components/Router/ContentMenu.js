@@ -8,8 +8,6 @@ import Week3 from "../pages/week3.js";
 import Week4 from "../pages/week4.js";
 import Week5 from "../pages/week5.js";
 
-
-
 import AboutPage from "../pages/AboutPage.js";
 
 const ContentMenu = {
