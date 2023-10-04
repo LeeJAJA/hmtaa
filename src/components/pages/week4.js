@@ -50,6 +50,9 @@ const Content = () => (
     <div style={{ width: "100%", marginBottom: "40px" }} alt={""}>
       <img className={"img_aspect"} src={`/assets/week4/5.jpg`} alt={""} />
     </div>
+    <div style={{ width: "100%", marginBottom: "40px" }} alt={""}>
+      <img className={"img_aspect"} src={`/assets/week4/10.jpg`} alt={""} />
+    </div>
 
     {/* <div style={{ width: "100%", marginBottom: "40px" }} alt={""}>
       <img
