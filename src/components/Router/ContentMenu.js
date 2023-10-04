@@ -45,7 +45,7 @@ const ContentMenu = {
     path: "/week4",
     element: <Week4 />,
     title: "#4 3D scanning and printing",
-    thumbnail: "/assets/wip/wip.jpg",
+    thumbnail: "/assets/week4/3.jpg",
     displayInGallery: true,
   },
   5: {
