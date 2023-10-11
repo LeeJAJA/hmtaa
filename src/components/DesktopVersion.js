@@ -43,26 +43,32 @@ const DesktopVersion = () => {
             }}
           >
             <div className={"title"}>Chance Jiajie Li's Sketch Pad</div>
-            <div className={"sub_title"}>
-              PROGRASS TRACKNG OF HTMAA 2023
-            </div>
+            <div className={"sub_title"}>PROGRASS TRACKNG OF HTMAA 2023</div>
           </div>
+
+          {/* ---------- Divider ---------- */}
+
+          <div className={"section"}>
+            <div className={"sec_title"}>Overview</div>
+            <hr />
+            <PageTitle text={ContentMenu[1]["title"]} id={1} />
+          </div>
+
           {/* ---------- Divider ---------- */}
 
           <div className={"section"}>
             <div className={"sec_title"}>Prograss Record</div>
             <hr />
-            <PageTitle text={ContentMenu[1]["title"]} id={1} />
             <PageTitle text={ContentMenu[2]["title"]} id={2} />
             <PageTitle text={ContentMenu[3]["title"]} id={3} />
             <PageTitle text={ContentMenu[4]["title"]} id={4} />
             <PageTitle text={ContentMenu[5]["title"]} id={5} />
+            <PageTitle text={ContentMenu[6]["title"]} id={6} />
           </div>
-
 
           {/* ---------- Divider ---------- */}
           <div className={"section"}>
-            <PageTitle text={"Projects"} id={17} />
+            <PageTitle text={"All Progress Records"} id={17} />
             <PageTitle text={"About"} id={18} />
           </div>
         </div>
