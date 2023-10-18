@@ -118,7 +118,7 @@ const Content = () => (
 );
 
 const Page = () => {
-  return <ContentTemplate title="Week1 CAD" content={<Content />} />;
+  return <ContentTemplate title="Week4 3D Scanning and Printing" content={<Content />} />;
 };
 
 export default Page;

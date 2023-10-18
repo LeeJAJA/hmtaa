@@ -8,6 +8,7 @@ import Week2 from "../pages/week2.js";
 import Week3 from "../pages/week3.js";
 import Week4 from "../pages/week4.js";
 import Week5 from "../pages/week5.js";
+import Week6 from "../pages/week6.js";
 
 import AboutPage from "../pages/AboutPage.js";
 
@@ -58,7 +59,14 @@ const ContentMenu = {
     path: "/week5",
     element: <Week5 />,
     title: "#5 electronics design",
-    thumbnail: "/assets/wip/wip.jpg",
+    thumbnail: "/assets/week5/flux1.jpg",
+    displayInGallery: true,
+  },
+  7: {
+    path: "/week6",
+    element: <Week6 />,
+    title: "#6 electronics production",
+    thumbnail: "/assets/week5/flux1.jpg",
     displayInGallery: true,
   },
   17: {

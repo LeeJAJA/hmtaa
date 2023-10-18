@@ -12,19 +12,13 @@ const Content = () => (
       that the capabilities of AI Pilot are quite limited.
     </div>
     <div style={{ width: "100%", marginBottom: "40px" }} alt={""}>
-      <img className={"img_aspect"} src={`/assets/week5/eagle1.jpg`} alt={""} />
+      <img className={"img_aspect"} src={`/assets/week5/flux3.jpg`} alt={""} />
     </div>
     <div style={{ width: "100%", marginBottom: "40px" }} alt={""}>
-      <img className={"img_aspect"} src={`/assets/week5/eagle2.jpg`} alt={""} />
+      <img className={"img_aspect"} src={`/assets/week5/flux2.jpg`} alt={""} />
     </div>
     <div style={{ width: "100%", marginBottom: "40px" }} alt={""}>
-      <img className={"img_aspect"} src={`/assets/week5/eagle3.jpg`} alt={""} />
-    </div>
-    <div style={{ width: "100%", marginBottom: "40px" }} alt={""}>
-      <img className={"img_aspect"} src={`/assets/week5/eagle4.jpg`} alt={""} />
-    </div>
-    <div style={{ width: "100%", marginBottom: "40px" }} alt={""}>
-      <img className={"img_aspect"} src={`/assets/week5/eagle5.svg`} alt={""} />
+      <img className={"img_aspect"} src={`/assets/week5/flux1.jpg`} alt={""} />
     </div>
     <div className={"page_content_subtitle"}>Flux Workflow</div>
     <div className={"page_content_content"}>
@@ -44,7 +38,7 @@ const Content = () => (
 );
 
 const Page = () => {
-  return <ContentTemplate title="Week5 Electronics Design" content={<Content />} />;
+  return <ContentTemplate title="Week6 Electronics Production" content={<Content />} />;
 };
 
 export default Page;

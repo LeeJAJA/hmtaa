@@ -64,6 +64,7 @@ const DesktopVersion = () => {
             <PageTitle text={ContentMenu[4]["title"]} id={4} />
             <PageTitle text={ContentMenu[5]["title"]} id={5} />
             <PageTitle text={ContentMenu[6]["title"]} id={6} />
+            <PageTitle text={ContentMenu[7]["title"]} id={7} />
           </div>
 
           {/* ---------- Divider ---------- */}
