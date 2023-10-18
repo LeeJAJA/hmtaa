@@ -7,7 +7,7 @@ import ContentTemplate from "../ContentTemplate.js";
 const Content = () => (
   <>
     <div className={"page_content_subtitle"}>WIP</div>
-    <div className={"page_content_content"}>WI</div>
+    <div className={"page_content_content"}>WIP</div>
   </>
 );
 
