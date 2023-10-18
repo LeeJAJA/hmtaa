@@ -66,7 +66,7 @@ const ContentMenu = {
     path: "/week6",
     element: <Week6 />,
     title: "#6 electronics production",
-    thumbnail: "/assets/week5/flux1.jpg",
+    thumbnail: "/assets/week6/8.jpg",
     displayInGallery: true,
   },
   17: {

@@ -8,8 +8,10 @@ const Content = () => (
   <>
     <div className={"page_content_subtitle"}>Eagle Workflow</div>
     <div className={"page_content_content"}>
-      I attempted to use the workflow combining ChatGPT with Flux, but found
-      that the capabilities of AI Pilot are quite limited.
+      I've designed a minimal circuit using Eagle, which involves using a switch
+      to control the on and off state of an LED. The components in the circuit
+      include a switch (typically a single-pole, single-throw or SPST switch),
+      an LED (Light Emitting Diode), a resistor, and the Seeed XIAO RP2040.
     </div>
     <div style={{ width: "100%", marginBottom: "40px" }} alt={""}>
       <img className={"img_aspect"} src={`/assets/week5/eagle1.jpg`} alt={""} />
@@ -44,7 +46,9 @@ const Content = () => (
 );
 
 const Page = () => {
-  return <ContentTemplate title="Week5 Electronics Design" content={<Content />} />;
+  return (
+    <ContentTemplate title="Week5 Electronics Design" content={<Content />} />
+  );
 };
 
 export default Page;
