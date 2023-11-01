@@ -31,7 +31,7 @@ const ContentMenu = {
     path: "/week1",
     element: <Week1 />,
     title: "#1 computer-aided design",
-    thumbnail: "/assets/wip/wip.jpg",
+    thumbnail: "/assets/week1/11.jpg",
     displayInGallery: true,
   },
   3: {
